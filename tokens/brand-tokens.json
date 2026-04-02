@@ -1,0 +1,162 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "$metadata": {
+    "version": "1.0.0",
+    "updated": "2026-04-02",
+    "source": "docs/hanna_studio_sistema_visual_v1.md"
+  },
+  "color": {
+    "primary": {
+      "$value": "#2F2B34",
+      "$type": "color",
+      "$description": "Grafito elegante — texto principal, titulares, íconos sobre fondos claros. RGB(47,43,52) | HSL(266°,9%,19%)"
+    },
+    "secondary": {
+      "$value": "#E8DCDC",
+      "$type": "color",
+      "$description": "Rosa nude — fondos secundarios, divisores, marcos decorativos. RGB(232,220,220) | HSL(0°,21%,89%)"
+    },
+    "accent": {
+      "$value": "#C899B3",
+      "$type": "color",
+      "$description": "Rosa acento — CTAs, descriptor STUDIO, highlights. RGB(200,153,179) | HSL(327°,30%,69%)"
+    },
+    "background": {
+      "$value": "#F8F4F2",
+      "$type": "color",
+      "$description": "Marfil suave — fondo principal de todas las piezas. RGB(248,244,242) | HSL(20°,31%,96%)"
+    }
+  },
+  "font": {
+    "brand": {
+      "$value": "Bodoni Moda",
+      "$type": "fontFamily",
+      "$description": "Fuente editorial de alto contraste para el nombre de marca y titulares. Fallback: 'Didot', 'Georgia', serif"
+    },
+    "ui": {
+      "$value": "Montserrat",
+      "$type": "fontFamily",
+      "$description": "Fuente de comunicación y UI para descriptor, texto de cuerpo y CTAs. Fallback: 'Arial', 'Helvetica', sans-serif"
+    }
+  },
+  "fontSize": {
+    "display": {
+      "$value": "160px",
+      "$type": "dimension",
+      "$description": "Nombre de marca HANNA en artes SVG de alta resolución"
+    },
+    "h1": {
+      "$value": "56px",
+      "$type": "dimension",
+      "$description": "Titulares principales en piezas digitales"
+    },
+    "h2": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Subtítulos de sección"
+    },
+    "label": {
+      "$value": "14px",
+      "$type": "dimension",
+      "$description": "Etiquetas, descriptor STUDIO en UI"
+    },
+    "body": {
+      "$value": "15px",
+      "$type": "dimension",
+      "$description": "Texto de cuerpo en comunicaciones digitales"
+    },
+    "caption": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Leyendas, precios, hashtags"
+    },
+    "cta": {
+      "$value": "14px",
+      "$type": "dimension",
+      "$description": "Botones y llamadas a acción"
+    }
+  },
+  "fontWeight": {
+    "regular": {
+      "$value": 400,
+      "$type": "fontWeight",
+      "$description": "Peso regular — Bodoni Moda para nombre de marca, Montserrat para cuerpo de texto"
+    },
+    "semibold": {
+      "$value": 600,
+      "$type": "fontWeight",
+      "$description": "Peso SemiBold — Montserrat para descriptor, labels, CTAs y subtítulos"
+    }
+  },
+  "letterSpacing": {
+    "brand": {
+      "$value": "6px",
+      "$type": "dimension",
+      "$description": "Tracking del nombre de marca HANNA"
+    },
+    "descriptor": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Tracking del descriptor STUDIO"
+    },
+    "cta": {
+      "$value": "3px",
+      "$type": "dimension",
+      "$description": "Tracking para botones y CTAs"
+    },
+    "body": {
+      "$value": "0px",
+      "$type": "dimension",
+      "$description": "Tracking para texto de cuerpo — sin expansión"
+    }
+  },
+  "spacing": {
+    "xs": {
+      "$value": "4px",
+      "$type": "dimension",
+      "$description": "Espaciado extra pequeño"
+    },
+    "sm": {
+      "$value": "8px",
+      "$type": "dimension",
+      "$description": "Espaciado pequeño"
+    },
+    "md": {
+      "$value": "16px",
+      "$type": "dimension",
+      "$description": "Espaciado medio — baseline del sistema de grilla"
+    },
+    "lg": {
+      "$value": "32px",
+      "$type": "dimension",
+      "$description": "Espaciado grande"
+    },
+    "xl": {
+      "$value": "64px",
+      "$type": "dimension",
+      "$description": "Espaciado extra grande"
+    },
+    "logoProtection": {
+      "$value": "80px",
+      "$type": "dimension",
+      "$description": "Zona de protección mínima alrededor del logo en piezas digitales (1080px base)"
+    }
+  },
+  "borderRadius": {
+    "circle": {
+      "$value": "9999px",
+      "$type": "dimension",
+      "$description": "Radio para formas completamente circulares (isotipo, avatares)"
+    },
+    "card": {
+      "$value": "12px",
+      "$type": "dimension",
+      "$description": "Radio de tarjetas y contenedores de contenido"
+    },
+    "button": {
+      "$value": "6px",
+      "$type": "dimension",
+      "$description": "Radio para botones y CTAs"
+    }
+  }
+}
