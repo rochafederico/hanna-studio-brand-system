@@ -137,8 +137,8 @@ El isotipo se usa en lugar del logo completo cuando el espacio disponible es red
 
 ### Fuentes principales
 
-| Rol | Fuente | Fallback web | Fuente |
-|-----|--------|--------------|--------|
+| Rol | Fuente | Fallback web | Proveedor |
+|-----|--------|--------------|-----------|
 | Brand / Titulares | Bodoni Moda | `'Didot', 'Georgia', serif` | Google Fonts |
 | UI / Comunicación | Montserrat | `'Arial', 'Helvetica', sans-serif` | Google Fonts |
 
