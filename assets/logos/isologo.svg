@@ -1,4 +1,9 @@
 <svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400&amp;family=Montserrat:wght@600&amp;display=swap');
+    </style>
+  </defs>
   <rect width="512" height="512" fill="#F8F4F2"/>
   
   <!-- marco exterior rosa nude -->
