@@ -1,0 +1,28 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo marfil suave: 60% -->
+  <rect width="1200" height="600" fill="#F8F4F2"/>
+
+  <!-- Logotipo principal: HANNA -->
+  <text x="600" y="255" text-anchor="middle"
+        font-family="'Bodoni Moda', 'Didot', serif"
+        font-size="160"
+        font-weight="400"
+        letter-spacing="6"
+        fill="#2F2B34">
+    HANNA
+  </text>
+
+  <!-- Descriptor secundario: STUDIO -->
+  <text x="600" y="360" text-anchor="middle"
+        font-family="Montserrat, Arial, sans-serif"
+        font-size="74"
+        font-weight="600"
+        letter-spacing="8"
+        fill="#C899B3">
+    STUDIO
+  </text>
+
+  <!-- guía visual sutil con rosa nude -->
+  <line x1="420" y1="382" x2="520" y2="382" stroke="#E8DCDC" stroke-width="2"/>
+  <line x1="680" y1="382" x2="780" y2="382" stroke="#E8DCDC" stroke-width="2"/>
+</svg>
